@@ -1,0 +1,23 @@
+{
+  "name": "redux-action-appliers",
+  "version": "0.1.0",
+  "description": "Utilities to directly apply redux actions to plain javascript objects for testing purposes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Neal Williams",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.2.1"
+  }
+}
